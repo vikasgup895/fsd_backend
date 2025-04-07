@@ -13,12 +13,13 @@ const View = () => {
 
 
     return (
-        <div>
-            <h1>View Registerd users</h1>
-            <table style={{width:'100px' , backgroundColor : 'yellowgreen' , border: '5px solid red'}}>
-                <thead>
-                    <tr>
-                        <th>ID</th>
+        <div style={{textAlign : "center" , fontSize :"18px"}}>
+
+            <h2>View Registerd users</h2>
+            <table border="1px" style={{width:'100%' , height : "100%", borderCollapse: "collapse", backgroundColor : 'yellowgreen' , border: '3px solid black'}}>
+                <thead >
+                    <tr >
+                        <th >ID</th>
                         <th>Name</th>
                         <th>Age</th>
                     </tr>

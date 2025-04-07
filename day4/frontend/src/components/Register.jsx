@@ -1,6 +1,6 @@
 import React from 'react'
 import axios from 'axios'
-import "./Register.css";
+ import "./Register.css";
 
 
 const Register = () => {
@@ -23,13 +23,15 @@ const Register = () => {
 
     return (
         <div>
+          <h2 style={{textAlign : "center" }}>User Register</h2>
+
             <form onSubmit={handleregister}>
                 <label>
-                    Name: 
+                    Name : 
                     <input type='text' name='name' />
                 </label>
                 <label>
-                    Age: 
+                    Age : 
                     <input type='number' name='age' />
                 </label>
 
