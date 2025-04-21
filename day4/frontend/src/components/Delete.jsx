@@ -4,12 +4,12 @@ const Delete = () => {
     const handleDelete = async (e) => {
         e.preventDefault();
         const id = e.target.id.value
-        await axios.delete(`http://localhost:9000/users/${id}`)
+        await axios.delete(`https://fsd-backend-4u0y.onrender.com/users/${id}`)
         alert('User Deleted successfully')
       }
   return (
     <div>
-        <h1 style={{textAlign : "center" }}>Delete User</h1>
+        <h2 style={{textAlign : "center" }}>Delete User</h2>
       <form onSubmit={handleDelete}>
         <label>
           ID:

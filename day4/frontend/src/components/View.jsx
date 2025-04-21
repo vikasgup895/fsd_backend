@@ -4,7 +4,7 @@ import axios from 'axios'
 const View = () => {
     const [users, setUsers] = useState([])
     const handleviews = async () => {
-        const res = await axios.get('http://localhost:9000/users');
+        const res = await axios.get('https://fsd-backend-4u0y.onrender.com/users');
         setUsers(res.data);
     }
     useEffect(() => {

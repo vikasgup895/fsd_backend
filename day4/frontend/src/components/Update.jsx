@@ -9,7 +9,7 @@ const Update = () => {
             const age = e.target.age.value
             const user = {name,age}
                
-            await axios.put(`http://localhost:900/user/${id}` , user)
+            await axios.put(`https://fsd-backend-4u0y.onrender.com/users/${id}` , user)
             alert('user update sucessfully')
 
         }

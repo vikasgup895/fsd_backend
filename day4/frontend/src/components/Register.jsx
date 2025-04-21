@@ -15,7 +15,7 @@ const Register = () => {
         const user = { name, age };
 
         // Send the POST request with the user object
-        await axios.post('http://localhost:9000/users', user);
+        await axios.post('https://fsd-backend-4u0y.onrender.com/users', user);
         
         // Alert when user is successfully registered
         alert('User registered successfully');
