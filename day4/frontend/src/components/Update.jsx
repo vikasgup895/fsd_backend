@@ -8,7 +8,7 @@ const Update = () => {
             const name = e.target.name.value
             const age = e.target.age.value
             const user = {name,age}
-            
+               
             await axios.put(`http://localhost:900/user/${id}` , user)
             alert('user update sucessfully')
 
