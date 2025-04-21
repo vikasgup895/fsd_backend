@@ -16,7 +16,7 @@ const Delete = () => {
           <input type="text" name="id" />
         </label>
        
-        <button type='submit'>Update</button>
+        <button type='submit'>Delete</button>
       </form>
     </div>
   )
